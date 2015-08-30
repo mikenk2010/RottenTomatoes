@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4A5E21D1303315258D6ACDE8 /* Pods_Rotten_Tomatoes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C7E18C8AA6E43C42DD1899 /* Pods_Rotten_Tomatoes.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DC4E3FE61B8EE8300080505E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4E3FE51B8EE8300080505E /* AppDelegate.swift */; };
-		DC4E3FE81B8EE8300080505E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4E3FE71B8EE8300080505E /* ViewController.swift */; };
 		DC4E3FEB1B8EE8300080505E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4E3FE91B8EE8300080505E /* Main.storyboard */; };
 		DC4E3FED1B8EE8300080505E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4E3FEC1B8EE8300080505E /* Images.xcassets */; };
 		DC4E3FF01B8EE8300080505E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4E3FEE1B8EE8300080505E /* LaunchScreen.xib */; };
@@ -36,7 +35,6 @@
 		DC4E3FE01B8EE8300080505E /* Rotten Tomatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rotten Tomatoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4E3FE41B8EE8300080505E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC4E3FE51B8EE8300080505E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC4E3FE71B8EE8300080505E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC4E3FEA1B8EE8300080505E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC4E3FEC1B8EE8300080505E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DC4E3FEF1B8EE8300080505E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 			children = (
 				DC4E400B1B8EE8DB0080505E /* MovieController */,
 				DC4E3FE51B8EE8300080505E /* AppDelegate.swift */,
-				DC4E3FE71B8EE8300080505E /* ViewController.swift */,
 				DC4E3FE91B8EE8300080505E /* Main.storyboard */,
 				DC4E3FEC1B8EE8300080505E /* Images.xcassets */,
 				DC4E3FEE1B8EE8300080505E /* LaunchScreen.xib */,
@@ -308,7 +305,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC4E3FE81B8EE8300080505E /* ViewController.swift in Sources */,
 				DCBF84FA1B92EF9600E77747 /* MovieViewController.swift in Sources */,
 				DCBF84FE1B92F84000E77747 /* MovieCell.swift in Sources */,
 				DCBF85001B92FD6100E77747 /* MovieDetailViewController.swift in Sources */,
